@@ -1,7 +1,7 @@
 main {
     display: flex;
     justify-content: center;
-    padding: 40px 0;
+    padding: 60px 0;
     color: #fff;
 }
 
@@ -38,6 +38,18 @@ button {
     margin-top: 70px;
 }
 
-button:nth-child(1){
+button{
     color: orange;
+}
+
+#btn-orange{
+    color: orange;
+}
+
+#btn-green{
+    color: green;
+}
+
+#btn-blue{
+    color: blue;
 }
