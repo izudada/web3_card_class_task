@@ -3,6 +3,7 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
 main {
@@ -19,6 +20,7 @@ main div {
 
 #orange{
     background-color: orange;
+    border-radius: 5px 0 0 5px;
 }
 
 #blue{
@@ -27,6 +29,7 @@ main div {
 
 #green{
     background-color: green;
+    border-radius: 0 5px 5px 0;
 }
 
 .card {
@@ -63,7 +66,7 @@ button{
     color: blue;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
     main{
         padding: 0 130px;
         width: 100px;
